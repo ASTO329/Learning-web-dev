@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Properties Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Properties Reference</h1>
+        
+        <div class="category">
+            <h2>Text Properties</h2>
+            <div class="property-card">
+                <h3>color</h3>
+                <code class="code-block">color: #ff0000;<button class="copy-btn">Copy</button></code>
+                <div class="example" style="color: #ff0000;">Example Text</div>
+            </div>
+            <div class="property-card">
+                <h3>font-size</h3>
+                <code class="code-block">font-size: 20px;<button class="copy-btn">Copy</button></code>
+                <div class="example" style="font-size: 20px;">Example Text</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Box Model</h2>
+            <div class="property-card">
+                <h3>margin</h3>
+                <code class="code-block">margin: 10px 20px 10px 20px;<button class="copy-btn">Copy</button></code>
+                <div class="example box-example">Content</div>
+            </div>
+            <div class="property-card">
+                <h3>padding</h3>
+                <code class="code-block">padding: 15px;<button class="copy-btn">Copy</button></code>
+                <div class="example padding-example">Content</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Flexbox</h2>
+            <div class="property-card">
+                <h3>display: flex</h3>
+                <code class="code-block">display: flex; justify-content: center;<button class="copy-btn">Copy</button></code>
+                <div class="example flex-example">
+                    <div>Item 1</div>
+                    <div>Item 2</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Grid</h2>
+            <div class="property-card">
+                <h3>display: grid</h3>
+                <code class="code-block">display: grid; grid-template-columns: 1fr 1fr;<button class="copy-btn">Copy</button></code>
+                <div class="example grid-example">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Transitions & Animations</h2>
+            <div class="property-card">
+                <h3>transition</h3>
+                <code class="code-block">transition: all 0.3s ease;<button class="copy-btn">Copy</button></code>
+                <div class="example transition-example">Hover me!</div>
+            </div>
+            <div class="property-card">
+                <h3>animation</h3>
+                <code class="code-block">animation: bounce 1s infinite;<button class="copy-btn">Copy</button></code>
+                <div class="example animation-example">Animated Box</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Positioning</h2>
+            <div class="property-card">
+                <h3>position: relative & absolute</h3>
+                <code class="code-block">position: relative; top: 10px; left: 10px;<button class="copy-btn">Copy</button></code>
+                <div class="example position-example">
+                    <div class="parent">Parent
+                        <div class="child">Child</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Backgrounds</h2>
+            <div class="property-card">
+                <h3>background</h3>
+                <code class="code-block">background: linear-gradient(45deg, #ff6b6b, #4ecdc4);<button class="copy-btn">Copy</button></code>
+                <div class="example gradient-example">Gradient Background</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Transforms</h2>
+            <div class="property-card">
+                <h3>transform</h3>
+                <code class="code-block">transform: rotate(45deg) scale(1.2);<button class="copy-btn">Copy</button></code>
+                <div class="example transform-example">Transform me!</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>CSS Variables (Custom Properties)</h2>
+            <div class="property-card">
+                <h3>var()</h3>
+                <code class="code-block">--main-color: #3498db; background: var(--main-color);<button class="copy-btn">Copy</button></code>
+                <div class="example css-var-example">CSS Variables</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>CSS Filters</h2>
+            <div class="property-card">
+                <h3>filter</h3>
+                <code class="code-block">filter: blur(5px) brightness(150%) contrast(120%);<button class="copy-btn">Copy</button></code>
+                <div class="example filter-example">Filter Effects</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Clip Path</h2>
+            <div class="property-card">
+                <h3>clip-path</h3>
+                <code class="code-block">clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);<button class="copy-btn">Copy</button></code>
+                <div class="example clip-path-example">Clipped Shape</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Advanced Animations</h2>
+            <div class="property-card">
+                <h3>Complex Animation</h3>
+                <code class="code-block">animation: morphing 3s ease-in-out infinite;<button class="copy-btn">Copy</button></code>
+                <div class="example morph-animation-example"></div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Backdrop Filter</h2>
+            <div class="property-card">
+                <h3>backdrop-filter</h3>
+                <code class="code-block">backdrop-filter: blur(10px);<button class="copy-btn">Copy</button></code>
+                <div class="example backdrop-filter-container">
+                    <div class="backdrop-filter-example">Frosted Glass Effect</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>CSS Mask</h2>
+            <div class="property-card">
+                <h3>mask-image</h3>
+                <code class="code-block">mask-image: linear-gradient(to right, transparent, black);<button class="copy-btn">Copy</button></code>
+                <div class="example mask-example">Masked Content</div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>3D Transforms</h2>
+            <div class="property-card">
+                <h3>transform-style: preserve-3d</h3>
+                <code class="code-block">transform: perspective(1000px) rotateY(45deg);<button class="copy-btn">Copy</button></code>
+                <div class="example perspective-container">
+                    <div class="cube">
+                        <div class="face front">Front</div>
+                        <div class="face back">Back</div>
+                        <div class="face right">Right</div>
+                        <div class="face left">Left</div>
+                        <div class="face top">Top</div>
+                        <div class="face bottom">Bottom</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Custom Scrollbar</h2>
+            <div class="property-card">
+                <h3>::-webkit-scrollbar</h3>
+                <code class="code-block">::-webkit-scrollbar { width: 10px; }<button class="copy-btn">Copy</button></code>
+                <div class="example custom-scrollbar">
+                    <p>Scroll me to see custom scrollbar!</p>
+                    <p>More content to enable scrolling...</p>
+                    <p>Even more content...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Blend Modes</h2>
+            <div class="property-card">
+                <h3>mix-blend-mode</h3>
+                <code class="code-block">mix-blend-mode: difference;<button class="copy-btn">Copy</button></code>
+                <div class="example blend-container">
+                    <div class="blend-element">Blend Me</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>CSS Counters</h2>
+            <div class="property-card">
+                <h3>counter-increment</h3>
+                <code class="code-block">counter-increment: section;<button class="copy-btn">Copy</button></code>
+                <div class="example counter-example">
+                    <div class="section">Section</div>
+                    <div class="section">Section</div>
+                    <div class="section">Section</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>CSS Grid Areas</h2>
+            <div class="property-card">
+                <h3>grid-template-areas</h3>
+                <code class="code-block">grid-template-areas: "header header" "sidebar main";<button class="copy-btn">Copy</button></code>
+                <div class="example grid-areas-example">
+                    <div class="header">Header</div>
+                    <div class="sidebar">Sidebar</div>
+                    <div class="main">Main Content</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>CSS Shapes</h2>
+            <div class="property-card">
+                <h3>shape-outside</h3>
+                <code class="code-block">shape-outside: circle(50%);<button class="copy-btn">Copy</button></code>
+                <div class="example shape-example">
+                    <div class="circle-shape"></div>
+                    <p>Text wraps around the circular shape creating an interesting layout effect.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Pointer Events</h2>
+            <div class="property-card">
+                <h3>pointer-events</h3>
+                <code class="code-block">pointer-events: none;<button class="copy-btn">Copy</button></code>
+                <div class="example pointer-events-example">
+                    <div class="no-pointer">Can't click me!</div>
+                    <div class="yes-pointer">Can click me!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Writing Mode</h2>
+            <div class="property-card">
+                <h3>writing-mode</h3>
+                <code class="code-block">writing-mode: vertical-rl;<button class="copy-btn">Copy</button></code>
+                <div class="example writing-mode-example">
+                    Vertical Text
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.copy-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const code = btn.parentElement.textContent.replace('Copy', '').trim();
+                navigator.clipboard.writeText(code);
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = 'Copy', 2000);
+            });
+        });
+    </script>
+</body>
+</html>
